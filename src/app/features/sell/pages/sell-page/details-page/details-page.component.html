@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<div ng-If="produtos">
+    <h2> {{ produtos?.nome }} </h2>
+    <p>Descrição do Produto: {{ produtos?.descricao }}</p>
+    <p>Preço: R$ {{ produtos?.preco }} </p>
+    <p>Quantidade: {{ produtos?.quantidade }}</p>
+    <img src="{{produtos?.imagem}}" width="250px" height="250px">
+    <p [ngClass]="{ 'em-estoque': produtos?.disponivel, 'falta-estoque': !produtos?.disponivel }">
+      {{ produtos?.disponivel ? 'Em estoque' : 'Produto em falta' }}</p>
+</div>
+<app-footer></app-footer>

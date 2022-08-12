@@ -1,0 +1,28 @@
+.com-estoque {
+  color: green;
+}
+.sem-estoque {
+  color: red;
+}
+
+.card-produto {
+  border: 1px solid #f5dede7c;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 5px #d0cccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100px;
+}
+
+.details {
+  margin-top: 5px;
+  width: 100%;
+}
