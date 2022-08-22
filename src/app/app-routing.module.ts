@@ -7,7 +7,6 @@ import { TaskslistComponent } from './features/tasks/components/taskslist/tasksl
 
 const routes: Routes = [
   { path: '', redirectTo: '/sell', pathMatch: 'full' },
-  { path: 'Home', component: HomeComponent},
   { path: 'tasks', component: TaskslistComponent},
   { path: 'sell', component: ProductsComponent},
   { path: 'product-details/:productId', component: DetailsPageComponent}

@@ -4,6 +4,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductsinitialComponent } from './pages/productsinitial/productsinitial.component';
 import { DetailsPageComponent } from './pages/sell-page/details-page/details-page.component';
+import { CreateUserComponent } from './pages/create-user-page/create-user/create-user.component';
 
 
 
@@ -12,6 +13,7 @@ import { DetailsPageComponent } from './pages/sell-page/details-page/details-pag
   ProductsComponent,
   ProductsinitialComponent,
   DetailsPageComponent,
+  CreateUserComponent,
   ],
   imports: [
     CommonModule,

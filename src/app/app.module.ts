@@ -9,6 +9,7 @@ import { SellModule } from './features/sell/sell.module';
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -21,6 +22,7 @@ registerLocaleData(localePt);
     HomeModule,
     TasksModule,
     SellModule,
+    BrowserAnimationsModule,
   ],
   providers: [
     {
